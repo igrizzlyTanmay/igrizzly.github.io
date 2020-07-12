@@ -1,0 +1,89 @@
+    #loading-grizzly {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgb(255, 255, 255) url('https://loading.io/asset/389950');
+        z-index:99999 ;
+    }
+        
+        
+        #footer-grizzly {
+            background-color: black;
+            color: white;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #img2 {
+                height: 300px;
+            }
+
+            #text {
+                font-size: 5px;
+
+            }
+
+        }
+
+
+
+        body {
+            background: -webkit-linear-gradient(left, #b6b9bd, #f9fbfc);
+        }
+
+        .contact-form {
+            background: #fff;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            width: 70%;
+        }
+
+        .contact-form .form-control {
+            border-radius: 1rem;
+        }
+
+        .contact-image {
+            text-align: center;
+        }
+
+        .contact-image img {
+            border-radius: 6rem;
+            width: 11%;
+            margin-top: -3%;
+            transform: rotate(29deg);
+        }
+
+        .contact-form form {
+            padding: 14%;
+        }
+
+        .contact-form form .row {
+            margin-bottom: -7%;
+        }
+
+        .contact-form h3 {
+            margin-bottom: 8%;
+            margin-top: -10%;
+            text-align: center;
+            color: #0062cc;
+        }
+
+        .contact-form .btnContact {
+            width: 50%;
+            border: none;
+            border-radius: 1rem;
+            padding: 1.5%;
+            background: #dc3545;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .btnContactSubmit {
+            width: 50%;
+            border-radius: 1rem;
+            padding: 1.5%;
+            color: #fff;
+            background-color: #0062cc;
+            border: none;
+            cursor: pointer;
+        }
